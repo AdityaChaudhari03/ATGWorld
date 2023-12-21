@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trend Blogger</title>
+    <!-- Box-icon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <a href="#" class="logo"><img src="./images/logo.png" alt=""></a>
+            <input type="text" class="search-bar" placeholder="Search for your favorite groups in ATG">
+            <p class="login">Create account.<button class="navbar-toggler" type="button" data-toggle="modal" data-target="#signupModal">
+                It's free
+              </button><img class="dropdown" src="./images/dropdown.jpg" alt=""></p>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-text container">
+            <h2 class="home-title">Computer Engineering</h2>
+            <span class="home-subtitle">142,765 Computer Engineers follow this</span>
+        </div>
+    </section>
+
+    <div class="post-filter container">
+        <span class="filter-item active-filter" data-filter="all">All Posts</span>
+        <span class="filter-item" data-filter="tech">Article</span>
+        <span class="filter-item" data-filter="food">Event</span>
+        <span class="filter-item" data-filter="news">Education</span>
+        <span class="filter-item" data-filter="news">Job</span>
+    </div>
+    
+    <div class="mid-block">
+        <div class="post container">
+            <!-- Post 1 -->
+            <div class="post-box article">
+                <img src="images/img1.jpg" alt="" class="post-img">
+                <h2 class="category">Article</h2>
+                <a href="#" class="post-title">What if famous brands had regular fonts? Meet RegulaBrands!</a>
+                <p class="post-description">I’ve worked in UX for the better part of a decade. From now on, I plan to return</p>
+                <div class="profile">
+                    <div class="profile-info">
+                        <img src="images/testi1.jpg" alt="" class="profile-img">
+                        <span class="profile-name">Sarthak Kamra</span>
+                    </div>
+                    <div class="profile-views">
+                        <p><img style="width: 16px;" src="./images/views.jpg" alt=""> 1.4k Views</p>
+                        <button><img src="./images/share.jpg" alt=""></button>
+                    </div>
+                </div>
+            </div>
+            <!-- Post 2 -->
+            <div class="post-box food">
+                <img src="images/img3.jpg" alt="" class="post-img">
+                <h2 class="category">Meetup</h2>
+                <a href="#" class="post-title">Tax Benefits for Investment under National Pension Scheme launched by Government</a>
+                <span class="post-date">12 Feb 2022</span>
+                <p class="post-description">I’ve worked in UX for the better part of a decade. From now on, I plan to rei…</p>
+                <div class="profile">
+                    <div class="profile-info">
+                        <img src="images/testi1.jpg" alt="" class="profile-img">
+                        <span class="profile-name">Sarthak Kamra</span>
+                    </div>
+                    <div class="profile-views">
+                        <p><img style="width: 16px;" src="./images/views.jpg" alt=""> 1.4k Views</p>
+                        <button><img src="./images/share.jpg" alt=""></button>
+                    </div>
+                </div>
+            </div>
+            <!-- Post 3 -->
+            <div class="post-box food">
+                <img src="images/img5.jpg" alt="" class="post-img">
+                <h2 class="category">Meetup</h2>
+                <a href="#" class="post-title">How to create the best UI with Figma</a>
+                <span class="post-date">12 Feb 2022</span>
+                <p class="post-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, similique, rerum excepturi harum, vitae facilis corrupti vel modi debitis est perferendis aut quasi ea unde repudiandae iste architecto. Corporis, voluptates.</p>
+                <div class="profile">
+                    <div class="profile-info">
+                        <img src="images/testi1.jpg" alt="" class="profile-img">
+                        <span class="profile-name">Sarthak Kamra</span>
+                    </div>
+                    <div class="profile-views">
+                        <p><img style="width: 16px;" src="./images/views.jpg" alt=""> 1.4k Views</p>
+                        <button><img src="./images/share.jpg" alt=""></button>
+                    </div>
+                </div>
+            </div>
+            <!-- Post 4 -->
+            <div class="post-box news">
+                <img src="images/img2.jpg" alt="" class="post-img">
+                <h2 class="category">Education</h2>
+                <a href="#" class="post-title">Tax Benefits for Investment under National Pension Scheme launched by Government</a>
+                <span class="post-date">12 Feb 2022</span>
+                <p class="post-description">I’ve worked in UX for the better part of a decade. From now on, I plan to rei…</p>
+                <div class="profile">
+                    <div class="profile-info">
+                        <img src="images/testi1.jpg" alt="" class="profile-img">
+                        <span class="profile-name">Sarthak Kamra</span>
+                    </div>
+                    <div class="profile-views">
+                        <p><img style="width: 16px;" src="./images/views.jpg" alt=""> 1.4k Views</p>
+                        <button><img src="./images/share.jpg" alt=""></button>
+                    </div>
+                </div>
+            </div>
+            <!-- Post 5 -->
+            <div class="post-box tech">
+                <img src="images/img1.jpg" alt="" class="post-img">
+                <h2 class="category">Article</h2>
+                <a href="#" class="post-title">What if famous brands had regular fonts? Meet RegulaBrands!</a>
+                <span class="post-date">12 Feb 2022</span>
+                <p class="post-description">I’ve worked in UX for the better part of a decade. From now on, I plan to rei...</p>
+                <div class="profile">
+                    <div class="profile-info">
+                        <img src="images/testi1.jpg" alt="" class="profile-img">
+                        <span class="profile-name">Sarthak Kamra</span>
+                    </div>
+                    <div class="profile-views">
+                        <p><img style="width: 16px;" src="./images/views.jpg" alt=""> 1.4k Views</p>
+                        <button><img src="./images/share.jpg" alt=""></button>
+                    </div>
+                </div>
+            </div>
+            <!-- Post 6 -->
+            <div class="post-box news">
+                <img src="images/img7.jpg" alt="" class="post-img">
+                <h2 class="category">Education</h2>
+                <a href="#" class="post-title">Tax Benefits for Investment under National Pension Scheme launched by Government</a>
+                <span class="post-date">12 Feb 2022</span>
+                <p class="post-description">I’ve worked in UX for the better part of a decade. From now on, I plan to rei…</p>
+                <div class="profile">
+                    <div class="profile-info">
+                        <img src="images/testi1.jpg" alt="" class="profile-img">
+                        <span class="profile-name">Sarthak Kamra</span>
+                    </div>
+                    <div class="profile-views">
+                        <p><img style="width: 16px;" src="./images/views.jpg" alt=""> 1.4k Views</p>
+                        <button><img src="./images/share.jpg" alt=""></button>
+                    </div>
+                </div>
+            </div>
+            <!-- Post 7 -->
+            <div class="post-box tech">
+                <img src="images/img4.jpg" alt="" class="post-img">
+                <h2 class="category">Article</h2>
+                <a href="#" class="post-title">What if famous brands had regular fonts? Meet RegulaBrands!</a>
+                <span class="post-date">12 Feb 2022</span>
+                <p class="post-description">I’ve worked in UX for the better part of a decade. From now on, I plan to return</p>
+                <div class="profile">
+                    <div class="profile-info">
+                        <img src="images/testi1.jpg" alt="" class="profile-img">
+                        <span class="profile-name">Sarthak Kamra</span>
+                    </div>
+                    <div class="profile-views">
+                        <p><img style="width: 16px;" src="./images/views.jpg" alt=""> 1.4k Views</p>
+                        <button><img src="./images/share.jpg" alt=""></button>
+                    </div>
+                </div>
+            </div>
+            <!-- Post 8 -->
+            <div class="post-box news">
+                <img src="images/img8.jpg" alt="" class="post-img">
+                <h2 class="category">Education</h2>
+                <a href="#" class="post-title">Tax Benefits for Investment under National Pension Scheme launched by Government</a>
+                <span class="post-date">12 Feb 2022</span>
+                <p class="post-description">I’ve worked in UX for the better part of a decade. From now on, I plan to rei…</p>
+                <div class="profile">
+                    <div class="profile-info">
+                        <img src="images/testi1.jpg" alt="" class="profile-img">
+                        <span class="profile-name">Sarthak Kamra</span>
+                    </div>
+                    <div class="profile-views">
+                        <p><img style="width: 16px;" src="./images/views.jpg" alt=""> 1.4k Views</p>
+                        <button><img src="./images/share.jpg" alt=""></button>
+                    </div>
+                </div>
+            </div>
+            <!-- Post 9 -->
+            <div class="post-box food">
+                <img src="images/img6.jpg" alt="" class="post-img">
+                <h2 class="category">Meetup</h2>
+                <a href="#" class="post-title">How to create the best UI with Figma</a>
+                <span class="post-date">12 Feb 2022</span>
+                <p class="post-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, similique, rerum excepturi harum, vitae facilis corrupti vel modi debitis est perferendis aut quasi ea unde repudiandae iste architecto. Corporis, voluptates.</p>
+                <div class="profile">
+                    <div class="profile-info">
+                        <img src="images/testi1.jpg" alt="" class="profile-img">
+                        <span class="profile-name">Sarthak Kamra</span>
+                    </div>
+                    <div class="profile-views">
+                        <p><img style="width: 16px;" src="./images/views.jpg" alt=""> 1.4k Views</p>
+                        <button><img src="./images/share.jpg" alt=""></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="location-block">
+            <div class="location">
+                <div style="display: flex;">
+                    <img class="location-logo" src="./images/location.jpg" alt="">
+                    <input class="location-input-box" type="text" value="Noida, India" placeholder="Enter your location">
+                </div>
+                <div>
+                    <img class="edit-logo" src="./images/edit.jpg" alt="">
+                </div>                
+            </div>
+            <hr>
+            <div class="location-info">
+                <img class="info-logo" src="./images/infologo.jpg" alt="">
+                <p>Your location will help us serve better and extend a personalised experience.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Signup Modal -->
+    <div class="modal" id="signupModal">
+        <div class="modal-content">
+        <span class="close" data-dismiss="modal">&times;</span>
+        
+        
+        <form id="signupForm">
+            <div class="modal-top">
+                <p class="modal-top-text">Let's learn, share & inspire each other with our passion for computer engineering. Sign up now 🤘🏼 </p>
+            </div>
+            <div class="modal-details">
+                <h2 style="margin: 1rem;">Create Account</h2>
+                <p class="modal-account-title">Already have an account? <a href="#" id="switchToSignIn"><span class="modal-signin">Sign In</span></a></p>
+            </div>
+            <div class="signup-form">
+                <div class="form-fields">
+                    <div class="name-info">
+                        <input type="text" id="firstname" placeholder="First Name" required>
+                        <input type="text" id="lastname" placeholder="Last Name" required>    
+                    </div>
+                    <input type="text" id="email" placeholder="Email" required>
+                    <input type="password" id="password" placeholder="Password" required>
+                    <input type="password" id="confirm-password" placeholder="Confirm Password" required>        
+                    <button class="create-account-button" type="submit">Create Account</button>
+                </div>
+                <div>
+                    <img src="./images/signupmodalimg.jpg" alt="">
+                </div>
+            </div>
+        </form>
+        <div id="signinForm" style="display: none;">
+            <div class="modal-top">
+                <p class="modal-top-text">Let's learn, share & inspire each other with our passion for computer engineering. Sign up now 🤘🏼 </p>
+            </div>
+            <div class="modal-details">
+                <h2 style="margin: 1rem;">Sign In</h2>
+                <p class="modal-account-title">Don’t have an account yet? <a href="#" id="switchToSignUp"><span class="modal-signin">Create new for free!</span></a></p>
+            </div>
+            <form>
+                <div class="signup-form">
+                    <div class="form-fields">
+                        <input type="text" id="email" placeholder="Email" required>
+                        <input type="password" id="password" placeholder="Password" required>       
+                        <button class="create-account-button" type="submit">Create Account</button>
+                    </div>
+                    <div>
+                        <img src="./images/signupmodalimg.jpg" alt="">
+                    </div>
+                </div>
+            </form> 
+          </div>
+        </div>
+    </div>
+
+    <!-- <footer>
+        <div class="footer-container">
+            <div class="sec aboutus">
+                <h2>About Us</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus quisquam minus quo illo numquam vel incidunt pariatur hic commodi expedita tempora praesentium at iure fugiat ea, quam laborum aperiam veritatis.</p>
+                <ul class="sci">
+                    <li><a href="#"><i class="bx bxl-facebook"></i></a></li>
+                    <li><a href="#"><i class="bx bxl-instagram"></i></a></li>
+                    <li><a href="#"><i class="bx bxl-twitter"></i></a></li>
+                    <li><a href="#"><i class="bx bxl-linkedin"></i></a></li>
+                </ul>
+            </div>
+            <div class="sec quicklinks">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </div>
+            <div class="sec contactBx">
+                <h2>Contact Info</h2>
+                <ul class="info">
+                    <li>
+                        <span><i class='bx bxs-map'></i></span>
+                        <span>6444 London street <br> Brighton PA 33445 <br> Uk</span>
+                    </li>
+                    <li>
+                        <span><i class='bx bx-envelope' ></i></span>
+                        <p><a href="mailto:codemyhobby9@gmail.com">Codemyhobby9@gmail.com</a></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer> -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="main.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
